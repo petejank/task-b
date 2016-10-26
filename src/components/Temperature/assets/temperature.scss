@@ -1,0 +1,26 @@
+@import '~rc-slider/assets/index.css';
+
+.temperature {
+  padding: 0 10px 0 15px;
+  margin-top: -3px;
+
+  &:not(:last-child) {
+    margin-bottom: 45px;
+  }
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+
+  .temperature__label {
+    margin-left: -5px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 100%;
+  }
+
+  .temperature__slider {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

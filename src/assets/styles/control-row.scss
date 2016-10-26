@@ -1,0 +1,39 @@
+@import 'color';
+@import 'utilities';
+
+.control-row {
+  @extend .clearfix;
+  line-height: 30px;
+  margin-top: 15px;
+  padding: 10px;
+  background: $blue-1;
+  border-radius: 3px;
+
+  .control-row__name {
+    text-transform: capitalize;
+    float: left;
+    width: 40%;
+    font-size: 14px;
+    margin: 0;
+    word-wrap: break-word;
+  }
+
+  .control-row__status {
+    float: left;
+    width: 40%;
+    text-align: right;
+    word-wrap: break-word;
+  }
+
+  .control-row__button {
+    float: left;
+    width: 20%;
+    text-align: right;
+  }
+
+  .control-row__name--long {
+      width: 100%;
+      float: none;
+      margin-bottom: 15px;
+  }
+}

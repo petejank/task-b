@@ -1,0 +1,28 @@
+@import 'color';
+@import 'utilities';
+
+.control-row-colored {
+  @extend .clearfix;
+  line-height: 30px;
+  margin-bottom: 20px;
+  background: $blue-2;
+  padding: 5px 10px;
+  border-radius: 3px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .control-row-long__name {
+    text-transform: capitalize;
+    float: left;
+    width: 25%;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .control-row-long__box {
+    float: left;
+    width: 75%;
+  }
+}

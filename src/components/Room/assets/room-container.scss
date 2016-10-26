@@ -1,0 +1,23 @@
+@import '~assets/styles/utilities';
+
+.room-container {
+  @extend .clearfix;
+  padding: 10px;
+  overflow: hidden;
+
+  @at-root {
+    .room-container__name {
+      margin: 15px 0;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .room-container__loader {
+      background: url('room-loader.svg');
+      width: 90px;
+      height: 23px;
+      margin: 50px auto 0;
+    }
+  }
+}

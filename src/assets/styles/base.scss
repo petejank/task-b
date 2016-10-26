@@ -1,0 +1,13 @@
+@import 'vendor';
+@import 'color';
+
+body {
+  font-family: sans-serif, serif, arial;
+  background: $blue-dark-1;
+  color: #FFF;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
